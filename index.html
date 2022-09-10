@@ -5,41 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Prediction Website</title>
 </head>
 
 <body>
- <section class="section-one">
-    <div id= "dog_result" class="results">
-        <img id="image"/>
-    </div>
+ 
+    <section class="section-one">
+        <div class="header">
+            <h1 class="title">Gender,  Age and Nationality Prediction Test</h1>
+        </div>
+        <div id= "dog_result" class="results">
+            <img class="image" id="image"/>
+        </div>
 
     
 
-    <div class="section-two">
-        <button id="btn"> Click to Predict</button>
-        <div>
-            <input type="text" id="input">
-            <p id="gender-type">The gender is </p>
+        <div class="section-two">
+            <div class="left">
+                <p>Enter your name and click on the button to predict <br>the gender, age and nationality of the person.</p>
+                <input class="input" type="text" id="input" placeholder="Enter name...">
+                <button class="button" id="btn"> Click to Predict</button>    
+            </div>   
+            <div class="right">
+                 <div id="gender">
+                    <p id="gender-type">The gender is </p>
+                 </div>
+
+                 <div id="age">
+                    <p id="age-numb">The age is </p>    
+                 </div>
+
+                 <div id="nationality">
+                    <p id="nationality-prob">The nationality is </p> 
+                </div>
+            </div>
+
         </div>
-
-        
-
-        <div id="gender">
-
-        </div>
-
-        <div id="age">
-            <p id="age-numb">The age is </p>    
-        </div>
-
-        <div id="nationality">
-            <p id="nationality-prob">The nationality is </p> 
-            
-            
-        </div>
-
-    </div>
  </section>
  <script src="script.js"></script> 
 </body>
