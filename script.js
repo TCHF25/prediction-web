@@ -1,3 +1,4 @@
+// Fetch The Dog image API
 window.addEventListener("load", get_random_dog_image);
 
 function get_random_dog_image(){
@@ -35,6 +36,9 @@ function display_image(image_url){
 
 
 
+
+
+//Fetch The gender prediction API
 const btn = document.getElementById("btn");
 btn.addEventListener("click", predictgender);
 
@@ -75,7 +79,7 @@ function display_gender(gendertype){
 
 
 
-
+//Fetch the Age prediction API
 btn.addEventListener("click", predictage);
 
 
@@ -116,9 +120,8 @@ function display_age(age){
 
 
 
-
+//Fetch the nationality API
 btn.addEventListener("click", predictnationality);
-
 
 function predictnationality() {
     var text = document.getElementById("input").value;
