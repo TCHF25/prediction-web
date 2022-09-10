@@ -43,12 +43,13 @@ body{
     border-radius: 10px;
     border-style: groove;
     border-color: black;
-    width: 500px;
-    height: 300px;
+    width: 80vh;
+    height: 50vh;
 }
     
 .section-two {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 300px;
     margin-top: 10vh;
